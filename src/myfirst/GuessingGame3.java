@@ -9,7 +9,7 @@ public class GuessingGame3  {
 		System.out.println("You must guess what it is in 3 tries.");
 		
 		int Rng = (int)(Math.random()*10+1);
-		//System.out.println(Rng);
+		System.out.println(Rng); // cheat!
 		
 		
 		//Scanner newScanner = new Scanner(System.in);
