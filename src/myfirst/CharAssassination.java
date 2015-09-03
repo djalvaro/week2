@@ -7,7 +7,7 @@ public class CharAssassination {
 		
 		
 		
-		char ch = '';
+		char ch = ' ';
 		System.out.println("A char: " + ch);
 		
 		

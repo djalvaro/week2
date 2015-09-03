@@ -12,7 +12,7 @@ public class Example {
 		
 		hoursWorked = 40;
 		payRate = 10.0;
-		taxRate = 0.10;
+		double taxRate = 0.10;
 		
 		System.out.println("Hours Worked: " + hoursWorked);
 		System.out.println("pay Amount : " + (hoursWorked * payRate));
