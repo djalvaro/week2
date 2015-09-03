@@ -1,5 +1,5 @@
 package myfirst;
-import java.util.scanner;
+
 public class Shortfall {
 
 	public static void main(String[] args) {

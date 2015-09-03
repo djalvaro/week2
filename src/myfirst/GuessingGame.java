@@ -1,5 +1,4 @@
 package myfirst;
-import java.lang.Math;
 import java.util.Scanner;
 public class GuessingGame  {
 
