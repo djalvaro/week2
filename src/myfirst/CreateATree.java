@@ -20,20 +20,24 @@ public class CreateATree {
 		int tree_length;
 		tree_length = keyboard.nextInt();
 		String starsRow = ("*");
-
 		
    	 for (int j=0; j<tree_length; j++) { 
-   		 int row = (j+1);
-   		 if (j<=tree_length)
-   			System.out.println((starsRow)*(row));
-   		 
-   		 
+	 			System.out.println("");
+   		 		System.out.print(starsRow);
+   			//	if (j<=tree_length)
+   					for (int i=0; i<j; i++) {
+		   	   		 	System.out.print(starsRow);
+   						
+   			//else
+   			//   	break;  		
+ 	
+
+		   	   	 }
    		 
    		 /*
    		  print a *
-   		  next round print * times 2
-   		  next round * times 3
-   		  etc...
+   		  next round print * + j times *
+   		  etc... until arrive at inputted number
    		  */
 
 		 }   
